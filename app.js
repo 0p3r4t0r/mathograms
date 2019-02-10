@@ -6,6 +6,22 @@ var path = require('path');
 var quotes = require('./math_quotes');
 var bodyParser = require('body-parser')
 
+// Japanese support
+var i18n = require('i18n');
+i18n.configure({
+  locales: ['en', 'ja'],
+  directory: __dirname + '/locales'
+});
+app.use(function(req, res, next) {
+    // express helper for natively supported engines
+    res.locals.__ = res.__ = function() {
+        return i18n.__.apply(req, arguments);
+    };
+
+    next();
+});
+app.use(i18n.init)
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 app.use(express.static('public'));
