@@ -9,7 +9,7 @@ var bodyParser = require('body-parser')
 // Japanese support
 var i18n = require('i18n');
 i18n.configure({
-  locales: ['en', 'ja'],
+  locales: ['ja', 'en'],
   directory: __dirname + '/locales'
 });
 app.use(function(req, res, next) {
