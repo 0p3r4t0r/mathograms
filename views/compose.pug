@@ -15,14 +15,14 @@ block body
           img.button(name='dancing', src='/img/dancing_thumb.png')
           img.button(name='love', src='/img/love_thumb.png')
           img.button(name='shine', src='/img/shine.png')
-      .action-share.button-pink Share
+      .action-share.button-pink #{__('Share')}
         i.dcg-icon-chevron-right
       .messages
         textarea.message(placeholder="Your message here...", autocomplete="off")
         input.from(type='text', placeholder="Sign your name", autocomplete="off")
       .graph-paper
       .about
-        p Made with love by Desmos. <a href='/about'>#{__('Learn')}</a>
+        p #{__('Made with love by Desmos.')} <a href='/about'>#{__('Learn more.')}</a>
 
 
     .share-view
@@ -30,15 +30,15 @@ block body
         img.branding(src='/img/mathogram.png')
 
       .main
-        .share Share your Math-o-gram!
+        .share #{__('Share your Math-o-gram!')}
         img.envelope(src='/img/envelope.png')
         .action-create-another.button-pink
           i.dcg-icon-chevron-left
-          | Create Another
+          | #{__('Create Another')}
 
         .share-form
           label
-            p Share this link:
+            p #{__('Share this link:')}
             input(type='url' class='share-link' contenteditable='false')
 
           .social-buttons
@@ -50,7 +50,7 @@ block body
               | Share
 
         .about
-          p Made with love by Desmos. <a href='/about'>Learn more.</a>
+          p #{__('Made with love by Desmos.')} <a href='/about'>#{__('Learn more.')}</a>
 
 block scripts
   script.
