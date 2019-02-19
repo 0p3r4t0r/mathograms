@@ -4,5 +4,10 @@
 	"Share": "Share",
 	"Share your Math-o-gram!": "Share your Math-o-gram!",
 	"Create Another": "Create Another",
-	"Share this link:": "Share this link:"
+	"Share this link:": "Share this link:",
+	"At <a href='http://www.desmos.com'>Desmos</a>, we love math, teachers, and technology, and we think Valentine's Day is the perfect time to share that love with the world.  So here's a Math-o-gram from us to you.": "At <a href='http://www.desmos.com'>Desmos</a>, we love math, teachers, and technology, and we think Valentine's Day is the perfect time to share that love with the world.  So here's a Math-o-gram from us to you.",
+	"While you're enjoying that warm, fuzzy feeling, look at how easy it is to embed that Desmos Math-o-gram into a plain webpage! We've been polishing and perfecting <a href='https://www.desmos.com/api/v1.2/docs/index.html'>our API</a> for years so that you can use all the features you love about Desmos anywhere on the web. (Try the movable point. Try it!)": "While you're enjoying that warm, fuzzy feeling, look at how easy it is to embed that Desmos Math-o-gram into a plain webpage! We've been polishing and perfecting <a href='https://www.desmos.com/api/v1.2/docs/index.html'>our API</a> for years so that you can use all the features you love about Desmos anywhere on the web. (Try the movable point. Try it!)",
+	"If you want to use our technology, or help improve it, please <a href='https://github.com/desmosinc/mathograms' target='_blank'>head to Github</a> where we've open-sourced the whole project. You complete us.": "If you want to use our technology, or help improve it, please <a href='https://github.com/desmosinc/mathograms' target='_blank'>head to Github</a> where we've open-sourced the whole project. You complete us.",
+		"About Math-o-grams": "About Math-o-grams",
+	"Make your own Math-o-gram": "Make your own Math-o-gram"
 }

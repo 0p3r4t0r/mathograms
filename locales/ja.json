@@ -4,5 +4,10 @@
 	"Share": "共有",
 	"Create Another": "もう一つ作る",
 	"Share your Math-o-gram!": "素敵な手紙を送りマース！",
-	"Share this link:": "以下のリンクでシェア"
+	"Share this link:": "以下のリンクでシェア",
+	"At <a href='http://www.desmos.com'>Desmos</a>, we love math, teachers, and technology, and we think Valentine's Day is the perfect time to share that love with the world.  So here's a Math-o-gram from us to you.": "私たち <a href='http://www.desmos.com'>Desmos</a>, は数学、先生、テクノロジーを愛しています。だから、愛情を相手に送るのに最も適した日、バレンタイにこのアップリを開発しました。これは私たちから、あなたに送りたいmath-o-gramです。",
+	"While you're enjoying that warm, fuzzy feeling, look at how easy it is to embed that Desmos Math-o-gram into a plain webpage! We've been polishing and perfecting <a href='https://www.desmos.com/api/v1.2/docs/index.html'>our API</a> for years so that you can use all the features you love about Desmos anywhere on the web. (Try the movable point. Try it!)": "あなたは上の文章を読んでハートフルになりましたか？math-o-gramをWebページに挿入するのは簡単なので、試してみてください。様々な人がどこでも使えるように、私たちはAPIを数年かけて洗練させてきました。（動かせる点をドラッグしてみてください。）",
+	"If you want to use our technology, or help improve it, please <a href='https://github.com/desmosinc/mathograms' target='_blank'>head to Github</a> where we've open-sourced the whole project. You complete us.": "もしこのテクノロジーを使ったり、貢献したければGitHubでオープンソースをみてください。あなたの支えがあるから私たちは頑張れます。",
+	"About Math-o-grams": "Math-o-gramのアバウト",
+	"Make your own Math-o-gram": "自分でMath-o-gramを作る"
 }
